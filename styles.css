@@ -1,0 +1,169 @@
+
+@font-face {
+    font-family: 'modeska';
+    src: url(modeska-trial-regular.ttf);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: modeska, sans-serif;
+    background-size: cover;
+    background-image: url('falls.jpg')
+
+  }
+  
+  header {
+    background-color: #490553;
+    padding: 10px 0;
+    margin-bottom:50px;
+    font-family: modeska, sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: modeska, sans-serif;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    font-family: modeska, sans-serif;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0056b3;
+  }
+  
+  .container {
+    width: 350px;
+    margin: 10px auto;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header-container {
+    background-color: #9212a5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    color: #f1ebeb;
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .header p {
+    color: #f3eded;
+    font-size: 14px;
+  }
+  
+  .login-form {
+    background-color: #aa7ed7;
+    padding-top: 10 px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: modeska, sans-serif;
+    
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    font-family: modeska, sans-serif;
+  }
+  
+  .input-group input:focus {
+    border-color: #490553;
+  }
+  
+  .input-group label {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    transition: 0.3s;
+    pointer-events: none;
+  }
+  
+  .input-group input:focus + label,
+  .input-group input:not(:placeholder-shown) + label {
+    top: -10px;
+    width: 50px;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  button {
+    width: 100%;
+    padding: 20px;
+    background-color: #a037b0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: modeska, sans-serif;
+  }
+  
+  button:hover {
+    background-color: #490553;
+  }
+  
+  .forgot-password {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .forgot-password a {
+    color: #e7deeb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .forgot-password a:hover {
+    color: #b81ef0;
+  }
+  
+  .extra-details {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .extra-details p {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .extra-details a {
+    color: #930ced;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .extra-details a:hover {
+    color: #9615e7;
+  }

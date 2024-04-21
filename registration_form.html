@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="icon" type="log-in" href="clover.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="login.html">Home</a></li>
+        <li><a href="https://www.youtube.com/watch?v=iSbLHrrqmoM">About</a></li>
+        <li><a href="https://www.tiktok.com/@kix.aep/video/7347313813177322784?q=that%20one%20dune%20edit%20&t=1713674386865">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="header">
+      <div class="header-container">
+        <h1>Sign up Account</h1>
+        <p>Fill the needed information to continue</p>
+      </div>
+    </div>
+    <form class="login-form" action="/submit_registration" method="post">
+      <h2>Sign Up</h2>
+      <div class="input-group">
+        <br>
+        <p>Username
+        </p>
+        
+        <input type="text" id="username" name="username" required>
+        <label for="username">Username</label>
+      </div>
+      <div class="input-group">
+        <p>Email</p>
+        <input type="email" id="email" name="email" required>
+        <label for="email">Email</label>
+      </div>
+      <div class="input-group">
+        <p>Password</p>
+        <input type="password" id="password" name="password" required>
+        <label for="password">Password</label>
+      </div>
+      <button type="submit">Sign Up</button>
+      <div class="forgot-password">
+        <p>Already have an account? <a href="login.html">Login</a></p>
+      </div>
+    </form>
+    <div class="extra-details">
+    
+    </div>
+  </div>
+  
+</body>
+</html>
